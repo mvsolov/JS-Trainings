@@ -48,3 +48,11 @@ console.log(typeof email);
 
 let phoneNum
 console.log(typeof phoneNum);
+
+// Task 7
+
+let login = prompt("Please enter you login");
+let emailAddress = prompt("Please enter you email");
+let password = prompt("Please enter you password");
+
+alert(`Dear ${login}, your email is ${emailAddress}, your password is ${password}`);
